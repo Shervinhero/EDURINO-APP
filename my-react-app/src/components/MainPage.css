@@ -1,0 +1,33 @@
+.main-page {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    background-color: #CE0008;
+    height: 130vh;
+    width: 100vw;
+}
+
+.image-container1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.main-image {
+    max-width: 800px;
+    height: auto;
+}
+
+.main-title {
+    position: absolute;
+    left: 30px;
+    bottom: 90px;
+    font-size: 220px;
+    color: #FFFDFB;
+    left: 40px;
+    stroke: blue;
+    stroke-opacity: 50;
+}

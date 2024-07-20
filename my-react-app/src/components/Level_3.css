@@ -1,0 +1,89 @@
+.Level_3 {
+    background-image: url('../assets/vergleisch.svg');
+    min-height: 100vh;
+    display: flex;
+    width: 110%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+
+.button-container22 {
+    position: relative;
+    justify-content: center;
+    gap: 240px;
+    bottom: 20px;
+    left: 380px;
+    margin-top: 20px;
+}
+
+.image-button {
+    position: relative;
+    top: 230px;
+    right: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease;
+}
+
+.try-again-container22 {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.sun-image {
+    width: 290px;
+    height: auto;
+    animation: rotate-sun 5s linear infinite;
+
+}
+.logo-container22 {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+.image-container22 {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    right: 40px;
+}
+.correct-container22 {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.correct-image22 {
+    width: 750px;
+    height: auto;
+}
+.sun-image22 {
+    width: 290px;
+    height: auto;
+    position: relative;
+    bottom: 360px;
+    right: 16px;
+    animation: rotate-sun 5s linear infinite;
+}
+.cross-containerlevel3{
+    position: relative;
+    top: 200%;
+    bottom: 395px;
+    left: 113%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}

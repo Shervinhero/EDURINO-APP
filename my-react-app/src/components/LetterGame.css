@@ -1,0 +1,54 @@
+.letter-game {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.letter-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.letter-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.letter-box.green {
+    background-color: green;
+    color: white;
+}
+
+.letter-box.red {
+    background-color: red;
+    color: white;
+}
+
+.word-display {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.word-display .correct {
+    color: green;
+}

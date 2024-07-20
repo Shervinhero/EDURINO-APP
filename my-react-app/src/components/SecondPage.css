@@ -1,0 +1,95 @@
+
+.second-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 190%;
+    background-image: url('../assets/back_page2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.logo-containersec {
+    position: relative;
+    top: 20px;
+    left: -700px;
+
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.content-container1 {
+    text-align: center;
+    padding: 100px;
+    border-radius: 100px;
+
+    max-width: 770px;
+    max-height: 590px;
+    width: 100%;
+    margin: auto;
+}
+
+.dice-container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.dice {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    animation: move-dice 3s infinite alternate;
+}
+
+.dice1 {
+    animation-delay: 0s;
+}
+
+.dice2 {
+    animation-delay: 0s;
+}
+
+@keyframes move-dice {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(400px, 100px);
+    }
+}
+
+.button-containersec {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 250px;
+    bottom: 350px;
+    left: 55px;
+    margin-top: 20px;
+}
+
+.image-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.button-image {
+    width: 430px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.image-button:hover .button-image {
+    transform: scale(1.1);
+}

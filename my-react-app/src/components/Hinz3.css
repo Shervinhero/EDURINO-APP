@@ -1,0 +1,72 @@
+.hinz3-back {
+    background-image: url('../assets/Hinz3back.svg');
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.button-container-hinz3 {
+    position: relative;
+
+    gap: 500px;
+    bottom: 400px;
+    left: 270px;
+    margin-top: 20px;
+}
+
+.image-button-hinz3 {
+    position: relative;
+    top: 750px;
+    right: 10px;
+    left: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s ease;
+}
+
+.image-button-hinz3:hover {
+    transform: scale(1.1);
+}
+
+.try-again-container-hinz3 {
+    position: absolute;
+    top: 150%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.correct-container-hinz3 {
+    position: absolute;
+    top: 150%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.correct-image-hinz3 {
+    width: 750px;
+    height: auto;
+}
+
+.image-container-hinz3 {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    right: 40px;
+}
+
+.cross-containerhinz3 {
+    position: relative;
+    top: 10%;
+    bottom: 60px;
+    left: 131%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
