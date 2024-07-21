@@ -43,7 +43,8 @@ const Level_3 = () => {
                 'bigger': () => handleVoiceCommand(3, 'Hey, try again.'),
                 'they are equal': () => handleVoiceCommand(2, 'No, look.'),
                 'equal': () => handleVoiceCommand(2, 'No, look.'),
-                'go last page': () => handleVoiceCommand(null, 'Going back to the last page...', '/vergleisch'),
+                'go last page': () => handleVoiceCommand(null, 'Going back to the last page...', '/level-2'),
+                'last page': () => handleVoiceCommand(null, 'Going back to the last page...', '/level-2'),
                 'go back': () => handleVoiceCommand(null, 'Going back to the last page...', '/level-2'),
                 'next page': () => handleVoiceCommand(null, 'Going to the next page...', '/level-4')
             };
@@ -94,7 +95,7 @@ const Level_3 = () => {
     };
 
     const goToMainPage = () => {
-        setLocation('/');
+        setLocation('/math-game');
     };
 
     return (

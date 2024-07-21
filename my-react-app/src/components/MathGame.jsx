@@ -39,7 +39,7 @@ const MathGame = () => {
                 speak('Excellent! now we go to the vergleisch.');
                 navigateTo('/vergleisch');
             },
-            'hinzufungen': () => {
+            'at': () => {
                 speak('Here you learn a lot!');
                 navigateTo('/Hinz1');
             },
@@ -48,7 +48,11 @@ const MathGame = () => {
                 navigateTo('/count-game');
             },
             'Go to the last Page': () => {
-                speak('sure, now we are in second Page!');
+                speak('sure, now we are in main!');
+                navigateTo('/second-page');
+            },
+            'last Page': () => {
+                speak('sure, now we are in main!');
                 navigateTo('/second-page');
             },
 

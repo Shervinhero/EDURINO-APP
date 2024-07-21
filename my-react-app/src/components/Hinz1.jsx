@@ -76,7 +76,7 @@ const Hinz1 = ({ history }) => {
     };
 
     const goToMainPage = () => {
-        setLocation('/');
+        setLocation('/math-game');
     };
 
     return (

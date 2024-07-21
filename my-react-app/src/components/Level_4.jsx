@@ -102,7 +102,7 @@ const Level_4 = () => {
     const goToMainPage = () => {
         setTransitionClass('transition-slide');
         setTimeout(() => {
-            setLocation('/');
+            setLocation('/math-game');
         }, 500);
     };
 

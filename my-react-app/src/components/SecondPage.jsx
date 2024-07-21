@@ -51,7 +51,7 @@ const SecondPage = () => {
     const navigateTo = (path) => {
         setTimeout(() => {
             window.location.href = path;
-        }, 1000);
+        }, 80);
     };
 
     const handleButtonClick = (buttonNumber) => {

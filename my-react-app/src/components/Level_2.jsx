@@ -36,12 +36,14 @@ const Level_2 = () => {
     const setupVoiceCommands = () => {
         if (annyang) {
             const commands = {
-                'smaller': () => handleVoiceCommand(3, 'Hey, Thiiiiink more.'),
+                'smaller': () => handleVoiceCommand(3, 'Hey, Think more.'),
                 'equal': () => handleVoiceCommand(2, 'No, see it carefully.'),
                 'bigger': () => handleVoiceCommand(1, 'Great job!'),
                 'go last page': () => handleVoiceCommand(null, 'Going back to last page...', '/vergleisch'),
+                'last page': () => handleVoiceCommand(null, 'Going back to last page...', '/vergleisch'),
                 'go back': () => handleVoiceCommand(null, 'Going back to last page...', '/vergleisch'),
-                'next page': () => handleVoiceCommand(null, 'Going back to next page...', '/level-3')
+                'next page': () => handleVoiceCommand(null, 'Going back to next page...', '/level-3'),
+                'go next page': () => handleVoiceCommand(null, 'Going back to next page...', '/level-3')
             };
 
             annyang.addCommands(commands);
@@ -82,7 +84,7 @@ const Level_2 = () => {
     };
 
     const goToMainPage = () => {
-        setLocation('/');
+        setLocation('/math-game');
     };
 
     return (

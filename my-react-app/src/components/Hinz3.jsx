@@ -32,7 +32,7 @@ const Hinz3 = ({ history }) => {
     const setupVoiceCommands = () => {
         if (annyang) {
             const commands = {
-                'mostafa': () => handleVoiceCommand(2, 'Great job!'),
+                'tenty': () => handleVoiceCommand(2, 'Great job!'),
                 'iron': () => handleVoiceCommand(3, 'No, do it one more time'),
                 'fridge': () => handleVoiceCommand(1, 'No, think more, ten plus 10 will not be fridge')
             };
@@ -76,7 +76,7 @@ const Hinz3 = ({ history }) => {
     };
 
     const goToMainPage = () => {
-        setLocation('/');
+        setLocation('/math-game');
     };
 
     return (

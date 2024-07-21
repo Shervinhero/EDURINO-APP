@@ -32,7 +32,7 @@ const Hinz2 = ({ history }) => {
     const setupVoiceCommands = () => {
         if (annyang) {
             const commands = {
-                'five': () => handleVoiceCommand(1, 'wow, you did it. nice!'),
+                'five': () => handleVoiceCommand(2, 'wow, you did it. nice!'),
                 'flower': () => handleVoiceCommand(3, 'no,,two plus three is not a flower.'),
                 'TV': () => handleVoiceCommand(1, 'hey, pay more attention.')
             };
@@ -76,7 +76,7 @@ const Hinz2 = ({ history }) => {
     };
 
     const goToMainPage = () => {
-        setLocation('/');
+        setLocation('/math-game');
     };
 
     return (

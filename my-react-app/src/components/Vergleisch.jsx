@@ -40,7 +40,8 @@ const Vergleisch = () => {
             'they are equal': () => handleVoiceCommand(2, 'Great job!'),
             'go last page': () => handleVoiceCommand(null, 'Going back to last page...', '/math-game'),
             'go back': () => handleVoiceCommand(null, 'Going back to last page...', '/math-game'),
-            'next page': () => handleVoiceCommand(null, 'Going to next page...', '/level-2')
+            'next page': () => handleVoiceCommand(null, 'Going to next page...', '/level-2'),
+            'main page': () => handleVoiceCommand(null, 'Going to main page...', '/second-page')
         });
 
         annyang.addCallback('result', function (phrases) {
@@ -82,7 +83,7 @@ const Vergleisch = () => {
     };
 
     const goToMainPage = () => {
-        setLocation('/');
+        setLocation('/math-game');
     };
 
     return (
