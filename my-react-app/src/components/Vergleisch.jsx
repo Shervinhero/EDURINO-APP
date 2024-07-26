@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Level_2.css'; // Assuming you want to use the same CSS as Level_2
+import './Level_2.css';
 import sun from '../assets/sun.svg';
 import backgroundImage from '../assets/vergleisch.svg';
 import buttonImage1 from '../assets/bigger.svg';
