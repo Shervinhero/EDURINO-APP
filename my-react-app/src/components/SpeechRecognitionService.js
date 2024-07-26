@@ -1,4 +1,3 @@
-// SpeechRecognitionService.js
 
 import annyang from 'annyang';
 
