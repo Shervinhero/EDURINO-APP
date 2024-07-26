@@ -1,4 +1,4 @@
-// src/components/MainPage.jsx
+
 import React from 'react';
 import PlayButton from './PlayButton';
 import './MainPage.css';
